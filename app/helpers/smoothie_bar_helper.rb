@@ -1,0 +1,2 @@
+module SmoothieBarHelper
+end

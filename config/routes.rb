@@ -1,4 +1,15 @@
 Smoothie::Application.routes.draw do
+
+  resource :smoothie_bar, only: :show, controller: :smoothie_bar
+
+  resources :recipes
+
+  resources :ingredients
+
+  resources :levels
+
+  root to: "levels#index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

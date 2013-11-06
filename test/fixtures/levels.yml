@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  level: 1
+  description: MyText
+  num_smoothies_needed: 1
+
+two:
+  level: 1
+  description: MyText
+  num_smoothies_needed: 1

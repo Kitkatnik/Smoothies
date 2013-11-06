@@ -1,0 +1,40 @@
+<h1>SmoothieBar</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="span6">
+			<div class="container-fluid well">
+				<ul class="nav nav-pills ingredients">
+					<% 4.times do |i| %>
+						<li><%= image_tag "Strawberry.png", class: "thumbnail ingredient", :"data-ingred-name" => "Strawberry", :"data-ingred-id" => "Strawberry #{i}" %></li>
+					<% end %>
+					<% 4.times do |i| %>
+						<li><%= image_tag "Banana.png", class: "thumbnail ingredient", :"data-ingred-name" => "Banana", :"data-ingred-id" => "Banana #{i}" %></li>
+					<% end %>
+				</ul>
+			</div>
+			<div class="container-fluid well">
+				<ul class="nav nav-pills ingredients">
+					<% 4.times do |i| %>
+						<li><%= image_tag "Ice.png", class: "thumbnail ingredient", :"data-ingred-name" => "Ice-Beige", :"data-ingred-id" => "Ice Beige #{i}" %></li>
+					<% end %>
+					
+					<% 4.times do |i| %>
+						<li><%= image_tag "Ice2.png", class: "thumbnail ingredient", :"data-ingred-name" => "Ice-Brown", :"data-ingred-id" => "Ice Brown #{i}" %></li>
+					<% end %>
+					
+					<% 4.times do |i| %>
+						<li><%= image_tag "Water.png", class: "thumbnail ingredient", :"data-ingred-name" => "Water", :"data-ingred-id" => "Water #{i}" %></li>
+					<% end %>
+					
+				</ul>
+			</div>	
+		</div>
+		<div class="span3">
+			<div class="container-fluid well" id="blender"></div>
+			<div class="container-fluid well" id="info">
+				
+			</div>
+		</div>
+	</div>
+</div>
